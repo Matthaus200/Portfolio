@@ -19,6 +19,8 @@
   border: 5px ;
   border-radius: 50%;
   width: 320px;
+  margin-top: 2em;
+  
   
 }
 
@@ -29,4 +31,7 @@
 .biography{
   margin-top: 10%;
   margin-left: 10%;
+  font-size: 30px;
+  margin-left:2em;
+  margin-right: 5em;
 }
