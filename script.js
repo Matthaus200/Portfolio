@@ -1,5 +1,14 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
+const themeToggle = document.getElementById("themeToggle");
+const root = document.documentElement;
+
+themeToggle.addEventListener("click", () => {
+  const next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+  root.setAttribute("data-theme", next);
+  localStorage.setItem("theme", next);
+});
+
 const navToggle = document.getElementById("navToggle");
 const navMenu = document.getElementById("navMenu");
 
