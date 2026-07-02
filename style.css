@@ -101,7 +101,8 @@ p {
   transition: color var(--transition);
 }
 
-.navbar__nav a:hover {
+.navbar__nav a:hover,
+.navbar__nav a.is-active {
   color: var(--color-blue-600);
 }
 
