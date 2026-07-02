@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matthäus de Paula — Desenvolvedor &amp; Automação de Dados Fiscais</title>
+  <meta name="description" content="Portfólio de Matthäus de Paula, desenvolvedor especializado em automação de processos fiscais com Python, SQL Server e PowerShell." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Matthäus de Paula — Desenvolvedor & Automação de Dados Fiscais" />
+  <meta property="og:description" content="Automação de processos fiscais e análise de dados com Python, SQL Server e PowerShell." />
+  <meta property="og:image" content="imagens/eu.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Matthäus de Paula — Desenvolvedor & Automação de Dados Fiscais" />
+  <meta name="twitter:description" content="Automação de processos fiscais e análise de dados com Python, SQL Server e PowerShell." />
+  <meta name="twitter:image" content="imagens/eu.jpg" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    (function () {
+      var saved = localStorage.getItem("theme");
+      var theme = saved || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar__inner">
+      <a href="#top" class="navbar__brand">Matthäus de Paula</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema claro/escuro">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navbar__nav" id="navMenu">
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#formacao">Formação</a>
+        <a href="#contato" class="navbar__cta">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="top" class="hero">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Desenvolvedor · Automação de Dados Fiscais</p>
+        <h1>Matthäus de Paula</h1>
+        <p class="hero__subtitle">
+          Automação de processos fiscais e análise de dados com Python, SQL Server e PowerShell —
+          transformando rotinas manuais de auditoria em pipelines confiáveis e auditáveis.
+        </p>
+        <div class="hero__actions">
+          <a href="#projetos" class="btn btn--primary">Ver projetos</a>
+          <a href="#contato" class="btn btn--ghost">Entrar em contato</a>
+          <a href="arquivos/Curriculo_Matthaus_de_Paula.pdf" class="btn btn--ghost" download>Baixar currículo</a>
+        </div>
+      </div>
+      <div class="hero__media">
+        <img src="imagens/eu.jpg" alt="Retrato de Matthäus de Paula" />
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <h2 class="section__title">Sobre mim</h2>
+      <div class="section__body">
+        <p>
+          Desenvolvedor com experiência prática em automação de processos fiscais e análise de dados
+          em ambiente de auditoria. Atuo com Python, SQL Server e PowerShell na correção, validação e
+          reconciliação de SPED Fiscal/EFD e documentos eletrônicos (NF-e/NFC-e), com foco em
+          integridade de dados e scripts robustos para processamento de grandes volumes.
+        </p>
+        <p>
+          Sou estudante de Engenharia de Software na Univille, com formação técnica em Desenvolvimento
+          de Sistemas pela Escola SESI de Referência. Gosto de resolver problemas de dados em escala,
+          onde precisão e confiabilidade não são opcionais.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section section--muted">
+      <h2 class="section__title">Habilidades técnicas</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Linguagens</h3>
+          <ul class="tag-list">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>JavaScript (básico)</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Banco de Dados</h3>
+          <ul class="tag-list">
+            <li>SQL Server</li>
+            <li>Consultas complexas</li>
+            <li>Reconciliação e auditoria de dados</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Automação</h3>
+          <ul class="tag-list">
+            <li>PowerShell</li>
+            <li>Automação de processos</li>
+            <li>Manipulação de arquivos em lote</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Experiência</h3>
+          <ul class="tag-list">
+            <li>SPED Fiscal</li>
+            <li>EFD</li>
+            <li>NF-e / NFC-e</li>
+            <li>Processamento de XML</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Ferramentas</h3>
+          <ul class="tag-list">
+            <li>Excel avançado</li>
+            <li>Pacote Office</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Idiomas</h3>
+          <ul class="tag-list">
+            <li>Português (nativo)</li>
+            <li>Inglês (avançado)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <h2 class="section__title">Projetos</h2>
+      <p class="section__intro">
+        Soluções desenvolvidas em contexto profissional para automatizar auditoria e correção de
+        dados fiscais em grande escala.
+      </p>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Automação de Correção de SPED Fiscal/EFD</h3>
+          <p>
+            Scripts em Python e PowerShell para identificar e corrigir inconsistências recorrentes
+            (erros 127-A, 118-E1, 452-A, entre outros) nos registros C100, C170, C180, C185 e C190.
+          </p>
+          <ul class="tag-list tag-list--small">
+            <li>Python</li>
+            <li>PowerShell</li>
+            <li>SPED/EFD</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <h3>Reconciliação Fiscal via SQL Server</h3>
+          <p>
+            Scripts SQL para reconciliação e auditoria de dados fiscais, incluindo investigação de
+            divergências de estoque e custo diretamente na origem (ERP).
+          </p>
+          <ul class="tag-list tag-list--small">
+            <li>SQL Server</li>
+            <li>Auditoria de dados</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <h3>Recuperação Inteligente de XML de NF-e/NFC-e</h3>
+          <p>
+            Ferramenta de investigação e recuperação de arquivos XML dentro de compactados, com busca
+            baseada em conteúdo para tratar chaves inconsistentes nos nomes dos arquivos.
+          </p>
+          <ul class="tag-list tag-list--small">
+            <li>Python</li>
+            <li>Processamento de XML</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <h3>Pipeline com Checkpoint e Retomada</h3>
+          <p>
+            Rotina de processamento em lote com capacidade de checkpoint/retomada para lidar com
+            grandes volumes de arquivos de forma confiável, garantindo integridade dos dados entregues
+            aos clientes.
+          </p>
+          <ul class="tag-list tag-list--small">
+            <li>Python</li>
+            <li>Processamento em lote</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section section--muted">
+      <h2 class="section__title">Experiência profissional</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__date">Mai 2025 – Atual</div>
+          <div class="timeline__content">
+            <h3>Consultor III — Automação e Dados Fiscais</h3>
+            <p class="timeline__org">Martinelli Auditores · Joinville, SC</p>
+            <p class="timeline__badge">Três promoções em ~12 meses (Assistente → Consultor II → Consultor III)</p>
+            <ul>
+              <li>Desenvolvimento e manutenção de automações em Python e PowerShell para correção de
+                inconsistências em SPED Fiscal/EFD nos registros C100, C170, C180, C185 e C190.</li>
+              <li>Criação de scripts em SQL Server para reconciliação e auditoria de dados fiscais,
+                incluindo investigação de divergências de estoque e custo na origem (ERP).</li>
+              <li>Investigação e recuperação de arquivos XML de NF-e/NFC-e em arquivos compactados, com
+                busca baseada em conteúdo para tratar chaves inconsistentes nos nomes dos arquivos.</li>
+              <li>Construção de rotinas com capacidade de checkpoint/retomada para processar grandes
+                volumes de arquivos de forma confiável, garantindo a integridade dos dados entregues aos
+                clientes.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__date">Mai 2024 – Jun 2025</div>
+          <div class="timeline__content">
+            <h3>Jovem Aprendiz — Administrativo / Logística</h3>
+            <p class="timeline__org">Transtusa Transporte e Turismo · Joinville, SC</p>
+            <ul>
+              <li>Apoio à execução de rotinas administrativas e processos de logística de transportes,
+                contribuindo para a organização interna.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__date">Mar 2021 – Jul 2022</div>
+          <div class="timeline__content">
+            <h3>Menor Aprendiz — Auxiliar Administrativo</h3>
+            <p class="timeline__org">Terraplenagem Medeiros · Joinville, SC</p>
+            <ul>
+              <li>Suporte em atividades administrativas gerais e manutenção da organização do
+                escritório.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacao" class="section">
+      <h2 class="section__title">Formação</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__date">2025 – Cursando</div>
+          <div class="timeline__content">
+            <h3>Bacharelado em Engenharia de Software</h3>
+            <p class="timeline__org">Univille — Universidade da Região de Joinville</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__date">2022 – 2024</div>
+          <div class="timeline__content">
+            <h3>Técnico em Desenvolvimento de Sistemas</h3>
+            <p class="timeline__org">Escola SESI de Referência · Ensino Médio Integrado</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section section--dark">
+      <h2 class="section__title">Contato</h2>
+      <p class="section__intro">
+        Aberto a oportunidades como desenvolvedor, automação de processos e análise de dados.
+      </p>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:matthauspaula@gmail.com">
+          <span class="contact-card__label">Email</span>
+          <span class="contact-card__value">matthauspaula@gmail.com</span>
+        </a>
+        <a class="contact-card" href="tel:+5547984817908">
+          <span class="contact-card__label">Telefone</span>
+          <span class="contact-card__value">(47) 98481-7908</span>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/matth%C3%A4us-de-paula-b83540256" target="_blank" rel="noopener">
+          <span class="contact-card__label">LinkedIn</span>
+          <span class="contact-card__value">/in/matthäus-de-paula</span>
+        </a>
+        <div class="contact-card contact-card--static">
+          <span class="contact-card__label">Localização</span>
+          <span class="contact-card__value">Joinville, SC</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Matthäus de Paula. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
