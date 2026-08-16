@@ -20,4 +20,9 @@ python3 -m http.server
 
 ## Deploy
 
-Pode ser publicado gratuitamente via GitHub Pages (Settings → Pages → branch `main`, pasta raiz).
+Publicado via GitHub Pages pelo workflow `.github/workflows/deploy.yml`, que roda a cada push
+na `main` e também pode ser disparado manualmente (aba Actions → Deploy to GitHub Pages →
+Run workflow).
+
+Para isso funcionar, em **Settings → Pages** o campo **Source** precisa estar como
+**GitHub Actions**.
